@@ -1,0 +1,27 @@
+{
+  "name": "react-dnd-typescript",
+  "version": "1.0.0",
+  "description": "A source code repo for implementing react-dnd in your app",
+  "main": "index.js",
+  "repository": "git@github.com:scottdj92/react-dnd-typescript.git",
+  "author": "Scott Jones <scottdj92@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./index.html"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.6",
+    "@emotion/styled": "^10.0.6",
+    "react": "^16.7.0",
+    "react-dnd": "^7.0.2",
+    "react-dnd-html5-backend": "^7.0.2",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
+    "parcel-bundler": "^1.11.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.2"
+  }
+}
